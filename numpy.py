@@ -25,3 +25,14 @@ import numpy as np
  [ 23,  45,  56,  66,   2],
  [357, 523,  32,  24,   2],
  [ 32,  32,  44,  33, 234]]
+##dtype
+ :
+ np.array([11,23,44] , dtype =float)
+ Out[7]: array([11., 23., 44.])
+ In [8]:
+ np.array([11,23,44] , dtype =bool) # Here True becoz , python treats Non -zero
+ Out[8]: array([ True,  True,  True])
+ In [9]:
+ np.array([11,23,44] , dtype =complex)
+ Out[9]: array([11.+0.j, 23.+0.j, 44.+0.j])
+
